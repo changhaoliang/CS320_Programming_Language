@@ -1,0 +1,26 @@
+Begin
+PushI 15
+PushN b
+Bind
+Fun test1 a
+PushN a
+PushN a
+Add
+PushN a
+Bind
+Return
+FunEnd
+PushN test1
+PushN b
+Call
+PushN b
+PushI -14
+Sub
+End
+PushI -13
+PushN b
+Bind
+PushN test1
+PushN b
+Call
+Quit

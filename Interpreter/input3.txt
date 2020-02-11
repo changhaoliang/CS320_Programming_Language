@@ -1,0 +1,20 @@
+InOutFun test1 y
+PushI 0
+PushN y
+Equal
+PushI 0
+PushI 1
+If
+PushN y
+Bind
+FunEnd
+PushI 12
+PushN x
+Bind
+PushN test1
+PushN x
+Call
+PushN x
+PushN x
+Add
+Quit

@@ -1,0 +1,17 @@
+InOutFun test1 x
+PushI -4
+PushN x
+Bind
+FunEnd
+Pop
+PushI 1000
+PushN a
+Bind
+Pop
+PushN test1
+PushN a
+Call
+PushN a
+PushN a
+Add
+Quit

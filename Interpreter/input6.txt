@@ -1,0 +1,22 @@
+Fun F a
+PushB <true>
+Return
+FunEnd
+Fun T a
+PushB <false>
+Return
+FunEnd
+Fun test a
+PushN a
+PushN T
+PushN F
+If
+Return
+FunEnd
+PushB <false>
+PushN test
+PushB <true>
+Call
+Swap
+Call
+Quit
